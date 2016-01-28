@@ -1,8 +1,26 @@
+body {
+	margin:0px;
+}
+
 .googleimage {
     text-align: center;
-    margin-top: 200px;
     position: relative;
-		
+		margin-top:100px;		
+		height:300px;
+}
+
+header{
+	
+	height:50px;
+}
+
+footer{
+	background-color:#dcdcdc;
+	position:absolute;
+	overflow:hidden;
+	bottom:0px;
+	width:100%;
+	height:50px;
     
 }
 
@@ -16,30 +34,95 @@ div:first-child {
    
 }
 
+div img {
+	width: 280px;
+	
+}
+
 .buttons button {
 	padding: 10px;
 	display: inline-block;
 	font-weight: bold;
-	background-color: #dcdcdc
+	background-color: #dcdcdc;
 	font-size: 7px;
 	border-radius: 2px;
 	margin: -3px 3px;
 	color: #708090;
 	border: 1px solid #dcdcdc;
 	margin-top: 15px;
+    font-size: 13px;
 }
 
 form input {
 	padding: 10px;
 	width: 600px;
+	margin-top: 100px;
 	
 	
 	
 }
 
-#search input[type='text'] { // Added Img, Set background to no repeat, Set Size;
-	background-image: url("microphone.png");
+#search input[type='text'] { 
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmC");
 	background-repeat:no-repeat;
 	background-size:30px 30px;
-	background-position: calc(100% - 10px) 0;
+	background-position: calc(100% - -1px) 0;
+	background-position: 584px 3px;
+}
+
+.SignIn a {
+	background-color: dodgerblue;
+	color: white;
+	float: right;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 4px;
+	margin-top: -15px;
+	
+	
+}
+
+.header_nav {
+	float:right;
+	margin-top: 20px;
+	padding-right:15px;
+}
+
+.header_nav a {
+	text-decoration: none;
+	color: #808080;
+	font-family: arial;
+    font-size: 15px;
+}
+
+.squarelogo img {
+	width: 20px;
+	margin-top:-2px;
+}
+
+.SignIn {
+	margin-top:22px;
+}
+
+.SignIn a {
+	color:#fff;
+}
+
+.Advertisment a {
+	text-decoration:none;
+	padding: 0px 15px;
+	color: #444;
+    font-family: arial;
+    font-size: 13px ;
+    display: inline-block;
+    line-height: 50px;
+    
+}
+
+.left {   
+	float:left;    
+}
+
+.right {
+	float:right;
 }
