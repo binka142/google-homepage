@@ -2,9 +2,44 @@
     text-align: center;
     margin-top: 200px;
     position: relative;
+		
     
 }
 
 div:first-child {
     text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 10px;
+   
+}
+
+.buttons button {
+	padding: 10px;
+	display: inline-block;
+	font-weight: bold;
+	background-color: #dcdcdc
+	font-size: 7px;
+	border-radius: 2px;
+	margin: -3px 3px;
+	color: #708090;
+	border: 1px solid #dcdcdc;
+	margin-top: 15px;
+}
+
+form input {
+	padding: 10px;
+	width: 600px;
+	
+	
+	
+}
+
+#search input[type='text'] { // Added Img, Set background to no repeat, Set Size;
+	background-image: url("microphone.png");
+	background-repeat:no-repeat;
+	background-size:30px 30px;
+	background-position: calc(100% - 10px) 0;
 }
